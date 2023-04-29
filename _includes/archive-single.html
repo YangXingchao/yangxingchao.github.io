@@ -55,13 +55,13 @@
     {% endif %}
     
     {% if post.projecturl and post.paperurl%}
-      <p><a href=" {{ post.projecturl }} ">[Project]</a><a href=" {{ post.paperurl }} ">[Paper]</a></p>
+      <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.paperurl }} ">[Paper]</a></p>
     {% elsif post.projecturl %}
       <p><a href=" {{ post.projecturl }} ">[Project]</a></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">[Paper]</a></p>
     {% endif %}
-
+    
     <!-- {% if post.citation and post.paperurl%}
       <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
@@ -69,8 +69,6 @@
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">[Paper]</a></p>
     {% endif %} -->
-
-
 
   </article>
 </div>
