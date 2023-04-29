@@ -7,4 +7,4 @@ venue: 'VC+VCC 2021, ポスター'
 award: '- VCポスター賞'
 ---
 
-**Xingchao Yang***，Takafumi Taketomi, and Vlad Erium
+**Xingchao Yang***, Takafumi Taketomi, and Vlad Erium
