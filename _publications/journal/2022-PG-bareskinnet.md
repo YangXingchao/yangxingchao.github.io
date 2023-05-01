@@ -8,4 +8,4 @@ venue: 'Computer Graphics Forum (Proc. of Pacific Graphics 2022), Vol. 41, No. 7
 paperurl: 'https://arxiv.org/abs/2209.09029'
 ---
 
-**Xingchao Yang*** and [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/)
+**Xingchao Yang*** and [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/)

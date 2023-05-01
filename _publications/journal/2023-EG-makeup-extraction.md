@@ -9,4 +9,4 @@ paperurl: 'https://arxiv.org/abs/2302.13279'
 projecturl: 'https://yangxingchao.github.io/3d-makeup-extraction/'
 ---
 
-**Xingchao Yang***, [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/), and [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html)
+**Xingchao Yang***, [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/), and [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html)
