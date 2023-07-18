@@ -4,8 +4,8 @@ collection: publications
 pubtype: conference
 permalink: /publication/journal/2023-ICCV-blendface
 date: 2023-10-4
-venue: 'International Conference on Computer Vision (ICCV)'
-paperurl: '(to appear)'
+venue: 'International Conference on Computer Vision (ICCV), (to appear)'
+# paperurl: ''
 # projecturl: 'https://yangxingchao.github.io/3d-makeup-extraction/'
 ---
 
