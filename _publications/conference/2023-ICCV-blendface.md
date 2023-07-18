@@ -9,4 +9,4 @@ paperurl: '(to appear)'
 # projecturl: 'https://yangxingchao.github.io/3d-makeup-extraction/'
 ---
 
-[Kaede Shiohara](https://mapooon.github.io/), **Xingchao Yang***, and [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/) [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html)
+[Kaede Shiohara](https://mapooon.github.io/), **Xingchao Yang***, and [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/)
