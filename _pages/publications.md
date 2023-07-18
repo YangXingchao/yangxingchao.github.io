@@ -24,6 +24,14 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+## Conference Papers
+
+{% for post in site.publications reversed%}
+  {% if post.pubtype == "conference" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
 ## Domestic
 
 {% for post in site.publications reversed%}
