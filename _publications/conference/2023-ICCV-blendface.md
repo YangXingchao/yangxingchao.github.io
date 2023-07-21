@@ -5,8 +5,9 @@ pubtype: conference
 permalink: /publication/conference/2023-ICCV-blendface
 date: 2023-10-4
 venue: 'International Conference on Computer Vision (ICCV), (to appear)'
-# paperurl: ''
-# projecturl: 'https://yangxingchao.github.io/3d-makeup-extraction/'
+paperurl: 'https://arxiv.org/abs/2307.10854'
+projecturl: 'https://mapooon.github.io/BlendFacePage/'
+codeurl: 'https://github.com/mapooon/BlendFace'
 ---
 
 [Kaede Shiohara](https://mapooon.github.io/), **Xingchao Yang***, and [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/)
