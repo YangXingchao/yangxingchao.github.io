@@ -1,5 +1,5 @@
 ---
-title: "BlendFace: Re-designing Identity Encoders with Blended Images for More Consistent Face-Swapping"
+title: "BlendFace: Re-designing Identity Encoders for Face-Swapping"
 collection: publications
 pubtype: conference
 permalink: /publication/conference/2023-ICCV-blendface
