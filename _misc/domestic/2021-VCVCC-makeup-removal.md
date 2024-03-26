@@ -1,6 +1,6 @@
 ---
 title: "高精細な三次元顔モデル生成のためのメイクおよび照明の除去"
-collection: publications
+collection: misc
 pubtype: domestic
 date: 2021-9-29
 venue: 'VC+VCC 2021, ポスター'

@@ -1,6 +1,6 @@
 ---
 title: "三次元表現に基づく照明効果を考慮した化粧の抽出と応用"
-collection: publications
+collection: misc
 pubtype: domestic
 date: 2022-11-18
 venue: '情報処理学会 研究報告（第188回コンピュータグラフィックスとビジュアル情報学研究発表会）, Vol. 2022-DCC-32, No. 4'
