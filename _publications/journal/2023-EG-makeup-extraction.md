@@ -8,7 +8,7 @@ venue: 'Computer Graphics Forum (Proc. of Eurographics 2023), Vol. 42, No. 2, pp
 paperurl: 'https://arxiv.org/abs/2302.13279'
 projecturl: 'https://yangxingchao.github.io/makeup-extract-page/'
 codeurl: 'https://github.com/YangXingchao/makeup-extract'
-imgurl: '/images/publications/EG23/teaser_eg23.jpg'
+imgurl: '/images/publications/eg_23.jpg'
 ---
 
 **Xingchao Yang***, [Takafumi Taketomi](https://taketomitakafumi.sakura.ne.jp/web/en/), and [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html)
