@@ -27,6 +27,9 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% if post.imgurl %}
+        <img src="{{ post.imgurl }}" alt="Icon" class="title-icon">
+      {% endif %}
       {% if post.collection == 'publications' or post.collection == 'misc' %}
         {{ title }}
       {% elsif post.link %}
