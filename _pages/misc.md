@@ -18,7 +18,7 @@ author_profile: true
 
 <!-- ## Papers -->
 
-{% for post in site.publications reversed%}
+{% for post in site.misc reversed%}
   {% if post.pubtype == "domestic" %}
     {% include archive-single.html %}
   {% endif %}
