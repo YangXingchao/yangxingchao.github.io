@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Domestic"
+title: "Misc"
 permalink: /domestic/
 author_profile: true
 ---

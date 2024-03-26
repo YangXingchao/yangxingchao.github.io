@@ -181,6 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  Misc:
+    output: true
+    permalink: /:collection/:path/
   # portfolio:
   #   output: false
   #   permalink: /:collection/:path/
@@ -229,7 +232,7 @@ defaults:
       comments: true
   - scope:
       path: ""
-      type: Domestic
+      type: misc
     values:
       layout: single
       author_profile: true
