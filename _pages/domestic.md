@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Domestic"
+permalink: /domestic/
 author_profile: true
 ---
 
@@ -16,18 +16,10 @@ author_profile: true
 {% endfor %} -->
 
 
-<!-- ## Publications -->
+<!-- ## Papers -->
 
 {% for post in site.publications reversed%}
-  {% if post.pubtype == "publications" %}
+  {% if post.pubtype == "domestic" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-<!-- ## Conference Papers
-
-{% for post in site.publications reversed%}
-  {% if post.pubtype == "conference" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %} -->

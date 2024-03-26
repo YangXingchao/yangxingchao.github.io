@@ -1,7 +1,7 @@
 ---
 title: "BlendFace: Re-designing Identity Encoders for Face-Swapping"
 collection: publications
-pubtype: conference
+pubtype: publications
 permalink: /publication/conference/2023-ICCV-blendface
 date: 2023-10-4
 venue: 'International Conference on Computer Vision (ICCV), Oct'

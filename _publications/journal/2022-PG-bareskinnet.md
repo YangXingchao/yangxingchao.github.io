@@ -1,7 +1,7 @@
 ---
 title: "BareSkinNet: De-makeup and De-lighting via 3D Face Reconstruction"
 collection: publications
-pubtype: journal
+pubtype: publications
 permalink: /publication/journal/2022-PG-bareskinnet
 date: 2022-9-19
 venue: 'Computer Graphics Forum (Proc. of Pacific Graphics 2022), Vol. 41, No. 7, pp. 623-634'

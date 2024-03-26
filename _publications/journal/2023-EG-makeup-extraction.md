@@ -1,7 +1,7 @@
 ---
 title: "Makeup Extraction of 3D Representation via Illumination-Aware Image Decomposition"
 collection: publications
-pubtype: journal
+pubtype: publications
 permalink: /publication/journal/2023-EG-makeup-extraction
 date: 2023-5-10
 venue: 'Computer Graphics Forum (Proc. of Eurographics 2023), Vol. 42, No. 2, pp. 293-307'
