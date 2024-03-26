@@ -26,10 +26,10 @@
       </div>
     {% endif %}
 
-    <div class="content-wrapper">
+    <div class="content-wrapper" style="display: flex; align-items: flex-start;">
       {% if post.imgurl %}
-        <div class="content-image">
-          <img src="{{ post.imgurl }}" alt="Icon">
+        <div class="content-image" style="flex-shrink: 0;">
+          <img src="{{ post.imgurl }}" alt="Icon" style="width: 256px; height: auto;">
         </div>
       {% endif %}
       <div class="content-details">
@@ -43,7 +43,7 @@
           {% endif %}
         </h2>
         {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
         {% endif %}
 
         {% if post.excerpt and site.read_more != 'enabled' %}

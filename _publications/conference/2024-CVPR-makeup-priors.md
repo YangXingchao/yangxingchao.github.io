@@ -2,9 +2,9 @@
 title: "Makeup Prior Models for 3D Facial Makeup Estimation and Applications"
 collection: publications
 pubtype: publications
-permalink: /publication/conference/2023-CVPR-makeup-priors
+permalink: /publication/conference/2024-CVPR-makeup-priors
 date: 2024-6-17
-venue: 'Computer Vision and Pattern Recognition Conference (ICCV), Jun'
+venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun'
 paperurl: 'https://yangxingchao.github.io/makeup-priors-page/'
 projecturl: 'https://yangxingchao.github.io/makeup-priors-page/'
 codeurl: 'https://yangxingchao.github.io/makeup-priors-page/'
