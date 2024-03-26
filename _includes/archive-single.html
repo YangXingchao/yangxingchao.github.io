@@ -26,54 +26,58 @@
       </div>
     {% endif %}
 
-    <div class="archive__item-header">
+    <div class="content-wrapper">
       {% if post.imgurl %}
-        <img src="{{ post.imgurl }}" alt="Icon" class="title-icon">
+        <div class="content-image">
+          <img src="{{ post.imgurl }}" alt="Icon">
+        </div>
       {% endif %}
-      <h2 class="archive__item-title" itemprop="headline">
-        {% if post.collection == 'publications' or post.collection == 'misc' %}
-          {{ title }}
-        {% elsif post.link %}
-          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-        {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      <div class="content-details">
+        <h2 class="archive__item-title" itemprop="headline">
+          {% if post.collection == 'publications' or post.collection == 'misc' %}
+            {{ title }}
+          {% elsif post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+        {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
         {% endif %}
-      </h2>
+
+        {% if post.excerpt and site.read_more != 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        {% elsif post.excerpt and site.read_more == 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+        {% endif %}
+
+        {% if post.collection == 'teaching' %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' or post.collection == 'misc' %}
+          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. <strong><span style="color:red">{{ post.award }}</span></strong></p>
+        {% elsif post.date %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+        
+        {% if post.projecturl and post.paperurl and post.codeurl%}
+          <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.paperurl }} ">[Paper]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
+        {% elsif post.projecturl and post.paperurl%}
+          <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.paperurl }} ">[Paper]</a></p>
+        {% elsif post.projecturl and post.codeurl%}
+          <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
+        {% elsif post.paperurl and post.codeurl%}
+          <p><a href=" {{ post.paperurl }} ">[Paper]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
+        {% elsif post.projecturl %}
+          <p><a href=" {{ post.projecturl }} ">[Project]</a></p>
+        {% elsif post.paperurl %}
+          <p><a href=" {{ post.paperurl }} ">[Paper]</a></p>
+        {% elsif post.codeurl %}
+          <p><a href=" {{ post.codeurl }} ">[Code]</a></p>
+        {% endif %}
+      </div>
     </div>
     
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-
-    {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'publications' or post.collection == 'misc' %}
-      <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. <strong><span style="color:red">{{ post.award }}</span></strong></p>
-    {% elsif post.date %}
-      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-    {% endif %}
-    
-    {% if post.projecturl and post.paperurl and post.codeurl%}
-      <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.paperurl }} ">[Paper]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
-    {% elsif post.projecturl and post.paperurl%}
-      <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.paperurl }} ">[Paper]</a></p>
-    {% elsif post.projecturl and post.codeurl%}
-      <p><a href=" {{ post.projecturl }} ">[Project]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
-    {% elsif post.paperurl and post.codeurl%}
-      <p><a href=" {{ post.paperurl }} ">[Paper]</a> <a href=" {{ post.codeurl }} ">[Code]</a></p>
-    {% elsif post.projecturl %}
-      <p><a href=" {{ post.projecturl }} ">[Project]</a></p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">[Paper]</a></p>
-    {% elsif post.codeurl %}
-      <p><a href=" {{ post.codeurl }} ">[Code]</a></p>
-    {% endif %}
 
   </article>
 </div>
