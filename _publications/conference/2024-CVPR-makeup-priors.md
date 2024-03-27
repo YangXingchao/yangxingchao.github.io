@@ -5,9 +5,9 @@ pubtype: publications
 permalink: /publication/conference/2024-CVPR-makeup-priors
 date: 2024-6-17
 venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun'
-paperurl: 'https://yangxingchao.github.io/makeup-priors-page/'
+paperurl: 'https://arxiv.org/abs/2403.17761'
 projecturl: 'https://yangxingchao.github.io/makeup-priors-page/'
-codeurl: 'https://yangxingchao.github.io/makeup-priors-page/'
+codeurl: 'https://github.com/YangXingchao/makeup-priors'
 imgurl: '/images/publications/cvpr_24.jpg'
 ---
 
