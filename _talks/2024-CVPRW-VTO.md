@@ -8,5 +8,4 @@ date: 2024-06-17
 location: "Seattle, CA, USA"
 ---
 
-Short Talk for The first CVPR 2024 Workshop on Virtual Try-On
-https://vto-cvpr24.github.io/
+Short Talk for [the First CVPR 2024 Workshop on Virtual Try-On](https://vto-cvpr24.github.io/)
