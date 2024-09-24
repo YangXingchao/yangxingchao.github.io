@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Xingchao Yang and I work as a research scientist at [Cyberagent AILab](https://cyberagent.ai/ailab/). Currently, I am also a doctoral student in the [Computational Geometry and Graphics Lab](http://www.cgg.cs.tsukuba.ac.jp/) at the University of Tsukuba, where I am advised by Associate Professor [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html). I earned my master's degree from the [Yamaguchi Lab](https://www.graco.c.u-tokyo.ac.jp/yama-lab/index.php) at the University of Tokyo.
+My name is Xingchao Yang and I work as a research scientist at [Cyberagent AILab](https://cyberagent.ai/ailab/). I have obtained my PhD from the [Computational Geometry and Graphics Lab](http://www.cgg.cs.tsukuba.ac.jp/) at the University of Tsukuba, where I was advised by Associate Professor [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html). I earned my master's degree from the [Yamaguchi Lab](https://www.graco.c.u-tokyo.ac.jp/yama-lab/index.php) at the University of Tokyo.
 
 My research interests are in the areas of deep learning, 3D computer vision, and computer graphics. Specifically, I am interested in 3D morphable model, 3D face reconstruction, 3D makeup reconstruction and transfer, inverse rendering, and face reenactment.
 
