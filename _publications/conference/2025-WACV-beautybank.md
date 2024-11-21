@@ -5,7 +5,7 @@ pubtype: publications
 permalink: /publication/conference/2024-WACV-beautybank
 date: 2025-2-28
 venue: 'Winter Conference on Applications of Computer Vision (WACV) , Feb'
-paperurl: 'To appear'
+paperurl: 'https://arxiv.org/abs/2411.11231'
 imgurl: '/images/publications/wacv_24.jpg'
 ---
 
