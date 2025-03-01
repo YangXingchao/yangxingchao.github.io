@@ -4,7 +4,7 @@ collection: publications
 pubtype: publications
 permalink: /publication/conference/2025-CVPR-freeuv
 date: 2025-6-11
-venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun'
+venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun, To appear'
 imgurl: '/images/publications/cvpr_25.jpg'
 ---
 
