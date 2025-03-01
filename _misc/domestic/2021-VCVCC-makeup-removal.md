@@ -4,7 +4,7 @@ collection: misc
 pubtype: domestic
 date: 2021-9-29
 venue: 'VC+VCC 2021, ポスター'
-award: '- VCポスター賞'
+award: 'VCポスター賞'
 ---
 
 **Xingchao Yang***, Takafumi Taketomi, and Vlad Erium
