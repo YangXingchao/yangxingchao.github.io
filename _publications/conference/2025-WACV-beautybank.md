@@ -7,7 +7,7 @@ date: 2025-2-28
 venue: 'Winter Conference on Applications of Computer Vision (WACV) , Feb'
 paperurl: 'https://arxiv.org/abs/2411.11231'
 codeurl: 'https://github.com/Alululululululu/BeautyBank-Inference?tab=readme-ov-file'
-dataseturl: '[lulululululululululu/Bare-Makeup-Synthesis-Dataset](https://huggingface.co/datasets/lulululululululululu/Bare-Makeup-Synthesis-Dataset)'
+dataseturl: 'https://huggingface.co/datasets/lulululululululululu/Bare-Makeup-Synthesis-Dataset'
 imgurl: '/images/publications/wacv_24.jpg'
 ---
 
