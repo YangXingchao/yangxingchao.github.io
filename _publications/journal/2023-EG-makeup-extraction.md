@@ -8,6 +8,7 @@ venue: 'Computer Graphics Forum (Proc. of Eurographics 2023), Vol. 42, No. 2, pp
 paperurl: 'https://arxiv.org/abs/2302.13279'
 projecturl: 'https://yangxingchao.github.io/makeup-extract-page/'
 codeurl: 'https://github.com/YangXingchao/makeup-extract'
+dataseturl: 'https://drive.google.com/file/d/1KC1eUU8HLD7y_DdomSzGKJWR2Hmapzr4/view?usp=sharing'
 imgurl: '/images/publications/eg_23.jpg'
 ---
 
