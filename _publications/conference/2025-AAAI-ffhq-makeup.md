@@ -4,7 +4,7 @@ collection: publications
 pubtype: publications
 permalink: /publication/conference/2025-AAAI-ffhq-makeup
 date: 2025-8-4
-venue: 'Arxiv'
+venue: 'Arxiv, To appear'
 imgurl: '/images/publications/aaai_26.jpg'
 ---
 
