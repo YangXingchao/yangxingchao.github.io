@@ -4,7 +4,7 @@ collection: publications
 pubtype: publications
 permalink: /publication/conference/2025-CVPR-freeuv
 date: 2025-6-11
-venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun, To appear'
+venue: 'Computer Vision and Pattern Recognition Conference (CVPR), Jun'
 paperurl: 'https://arxiv.org/abs/2503.17197'
 projecturl: 'https://yangxingchao.github.io/FreeUV-page/'
 codeurl: 'https://github.com/YangXingchao/FreeUV'
