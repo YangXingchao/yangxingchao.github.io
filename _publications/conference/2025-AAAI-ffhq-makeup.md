@@ -5,6 +5,7 @@ pubtype: publications
 permalink: /publication/conference/2025-AAAI-ffhq-makeup
 date: 2025-8-4
 venue: 'Arxiv, To appear'
+projecturl: 'https://yangxingchao.github.io/FFHQ-Makeup-page/'
 imgurl: '/images/publications/aaai_26.jpg'
 ---
 
