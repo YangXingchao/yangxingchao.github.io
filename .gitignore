@@ -1,1 +1,12 @@
+# Jekyll build output
 _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / local Ruby dependencies (GitHub Pages builds server-side)
+vendor/
+.bundle/
+
+# OS files
+.DS_Store
